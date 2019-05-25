@@ -4,7 +4,6 @@ def linearSearch(li, number):
         if number == li[i]:
             isNumberFound = True
             return i
-            break
     if isNumberFound is False:
         return -1
 
